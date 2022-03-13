@@ -7,12 +7,12 @@
     padding-bottom: 50px;
     color: #ffff;
 }
-/* .mouse {
+ .mouse {
     margin-top: 230px;
 }
 .container_about {
     text-align: center;
-    line-height: 50px;
+    line-height: 50px; 
 }
 .container_services {
     background-image: url("../images/s_image.jpg");
@@ -24,7 +24,7 @@
     padding-bottom: 50px;
     line-height: 50px;
 }
-.container_what-we-do{
+/* .container_what-we-do{ */
     /* padding-top: 60px; */
     /* padding-bottom: 60px;
     padding-left: 250px;
