@@ -24,39 +24,34 @@
     padding-bottom: 50px;
     line-height: 50px;
 }
-/* .container_what-we-do{ */
-    /* padding-top: 60px; */
-    /* padding-bottom: 60px;
+.container_what-we-do{
+    padding-top: 60px;
+    padding-bottom: 60px;
     padding-left: 250px;
     padding-right: 250px;
     text-align: center;
 }
-.what-icons {
+.icons {
     display: flex;
     justify-content: space-between;
 }
-.what-we-do h1 {
+.container_what-we-do h1 {
     text-align: center;
     margin-bottom: 50px;
 }
 .design,
-.dev,
+.development,
 .product {
     text-align: center;
     margin-left: 15px;
     margin-right: 15px;
     width: 30%;
 }
-.design-text {
+.description {
     display: none;
+
 }
-.dev-text {
-    display: none;
-}
-.product-text {
-    display: none;
-}
-.contact_us {
+/* .contact_us {
     text-align: center;
     background-image: url("../images/c_image.jpg");
     background-repeat: no-repeat;
@@ -65,4 +60,4 @@
     color: #fff;
     padding-bottom: 200px;
     margin-top: 5%;
-} */ 
+}  */ */
