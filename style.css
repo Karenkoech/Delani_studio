@@ -71,19 +71,20 @@
     width: 100%;
     height: 100%;
     background: transparent;
-    color: pink;
+    color: rgb(235, 14, 51);
     font-family: 'quicksand',sans-serif;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    opacity: 0; */
+    opacity: 0;
+    border: 20px;
 }
 .image__overlay:hover{
     opacity: 1;
 }
 .image__title{
-    font-size: 1.25rem;
+    font-size: 1.5rem;
     font-weight: bold;
 }
 .image__description{
