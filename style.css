@@ -51,6 +51,11 @@
     display: none;
 
 }
+h3.text{
+    margin-top: -50%;
+    /* display: none; */
+    border: 5px solid black;
+}
 .container_contact{
     text-align: center;
     background-image: url("../images/c_image.jpg");
@@ -61,3 +66,5 @@
     padding-bottom: 200px;
     margin-top: 5%;
 }
+
+
