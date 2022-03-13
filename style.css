@@ -51,7 +51,7 @@
     display: none;
 
 }
-/* .contact_us {
+.container_contact{
     text-align: center;
     background-image: url("../images/c_image.jpg");
     background-repeat: no-repeat;
@@ -60,4 +60,4 @@
     color: #fff;
     padding-bottom: 200px;
     margin-top: 5%;
-}  */ 
+}
