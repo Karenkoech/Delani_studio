@@ -35,22 +35,22 @@
       <h1>WHAT WE DO</h1>
       <div class="icons">
           <div class="design">
-              <div class="design-icon">
-                 <button onclick="textDes"> <img src="images/design_icon.png" alt="">
-                  <p>DESIGN</p></button>
+              <div class="design-icon" id="icon1">
+                <img src="images/design_icon.png" alt="" ">
+                  <p>DESIGN</p>
               </div>
-              <div class="description">
-                  <h2>DESIGN</h2>
+              <div class="description" id="para1">
+
                   <p>Our design practice offers a full range of services including brand strategy, interaction and visual design and user experience testing.</p> <br>
                   <p>Throughout your project, our designers create and implement visual design and workflows, solicit user feedback and work with you to make sure what gets built is what is needed.</p>
               </div>
           </div>
           <div class="development">
               <div class="dev-icon">
-                <button onclick="textDes"> <img src="images/dev_icon.png" alt="">
-                  <p>DEVELOPMENT</p></button>
+                <img src="images/dev_icon.png" alt="">
+                  <p>DEVELOPMENT</p>
               </div>
-              <div class="description">
+              <div class="description" id="para2">
                   <h2>DEVELOPMENT</h2> 
                   <p>All engineers are fluent in the latest enterprise, mobile and web development technologies.</p> <br>
                   <p>They collaborate with your team to write, and improve code on a daily basis, using proven practices such as test-driven development and pair programming.</p>
@@ -58,10 +58,10 @@
           </div>
           <div class="product">
               <div class="product-icon">
-                   <button onclick="textDes"><img src="images/product_icon.png" alt="">
-                  <p>PRODUCT MANAGEMENT</p></button>
+                <img src="images/product_icon.png" alt="">
+                  <p>PRODUCT MANAGEMENT</p>
               </div>
-              <div class="description">
+              <div class="description" id="para3">
                   <h2>PRODUCT MANAGEMENT</h2>
                   <p>Planning and development is iterative. Because we are constantly coding and testing, the product we build are always ready to go live.</p> <br>
                   <p>The iterative process allows for changes as business requirements evolve.</p>
@@ -78,33 +78,37 @@
         <div class="card">
          <img class="image__img" src="images/work4.jpg" alt="work4">
          <div class="image__overlay">
+          <div class="textwrap">
           <div class="image__title">Adam project</div>
-          <p class="image__description"style="color: pink;font-weight: bold;">
-            Delani's first project on Adam.
+          <p class="image__description"style="color: pink;font-weight: bold;"></p>
+               Delani's first project on Adam.
           </p>
          </div>
+        </div>
       </div>
     </div>
     <div class="col-md-2">
     <div class="card">
             <img class="image__img" src="images/work3.jpg" alt="">
             <div class="image__overlay">
+              <div class="textwrap">
               <div class="image__title">Mighty Ontario</div>
               <p class="image__description"style="color:red;font-weight: bold;">
                 Security detail.
-              </p>
+              </p></div>
             </div>
         </div>  
       </div>
-    <div class="col-md-2"></div>
     <div class="col-md-2">
         <div class="card">
          <img class="image__img" src="images/work2.jpg" alt="work4">
          <div class="image__overlay">
+          <div class="textwrap">
           <div class="image__title">Binder</div>
           <p class="image__description"style="color:black ;font-weight: bold;">
              Open logic based security language.
           </p>
+        </div>
         </div>
        </div>
     </div>
@@ -112,147 +116,104 @@
         <div class="card">
             <img class="image__img" src="images/work1.jpg" alt="">
             <div class="image__overlay">
+              <div class="textwrap">
               <div class="image__title">Cinderella game</div>
               <p class="image__description"style="color:rgb(220, 234, 240);font-weight: bold;">
                 Bored?...check out this game!
               </p>
             </div>
+            </div>
            </div>
     </div>
-  </div>
+  </div> <br>
 <div class="row">
     <div class="col-md-2"></div>
     <div class="col-md-2">
         <div class="card">
             <img class="image__img" src="images/work5.jpg" alt="">
             <div class="image__overlay">
+              <div class="textwrap">
               <div class="image__title">Super Fun Time!</div>
               <p class="image__description"style="color:navy-blue;font-weight: bold;">
                 Hey you!<br> Stay happy.. 
               </p>
             </div>
+            </div>
            </div>
         </div>
-    <!-- </div> -->
     <div class="col-md-2">
         <div class="card">
             <img class="image__img" src="images/work6.jpg" alt="">
             <div class="image__overlay">
+              <div class="textwrap">
               <div class="image__title">Dream chase</div>
               <p class="image__description"style="color::rgb(224, 239, 243);font-weight: bold;">
                 Fill the form to understand.
               </p>
             </div>
+            </div>
            </div>
         </div>
-    <!-- </div> -->
     <div class="col-md-2">
         <div class="card">
             <img class="image__img" src="images/work7.jpg" alt="">
             <div class="image__overlay">
+              <div class="textwrap">
               <div class="image__title">BURNED</div>
               <p class="image__description" style="color:rgb(224, 239, 243);font-weight: bold;">
                   Our LOGO.
               </p>
             </div>
+            </div>
         </div>
-    </div>
-    <!-- </div> -->
+    </div><br>
+    
     <div class="col-md-2">
         <div class="card">
             <img class="image__img" src="images/work8.jpg" alt="" >
             <div class="image__overlay">
+              <div class="textwrap">
               <div class="image__title">GIRAFFES</div>
               <p class="image__description" style="color:rgb(224, 239, 243);font-weight: bold;" >
                 BAILEY <br> WONGER
               </p>
             </div>
+            </div>
         </div>
       </div>
 </div>
 
-    <div class="container_contact">
+  <div class="container_contact">
       <h1> CONTACT US</h1>
       <div class="details">
           <form action="">
-              <input type="text" placeholder="Name" name="style="background-color: transparent;text-decoration: white;">
-              <input type="email" placeholder="Email" style="background-color: transparent;;">
+              <input type="text" id="name" placeholder ="Name" style="background-color: transparent;">
+              <input type="email" id="email" placeholder="Email" style="background-color: transparent;;">
           </form>
-      </div>
+      </div> <br>
       <div class="message-form">
-          <textarea name="" id="text-area" cols="45" rows="10" style="border:2px solid white; background-color: transparent; color: white;">Your message here ...</textarea>
+          <textarea name="" id="message" cols="45" rows="10" style="border:2px solid white; background-color: transparent; color: white;">Your message here ...</textarea>
       </div>
-      <button type="submit" class="btn1">Submit</button>
+      <button type="submit" class="button" onclick="submit">Submit</button>
   </div>
-  <div class="column" style="display:flex;">
-    <!-- <div class="col-md-1"></div> -->
-    <div class="col-md-1">
-        <div class="card">
-            <img src="images/twitter.png" alt="">
-        </div>
+  <footer class="container_footer">
+    <div class="container_icons">
+        <img src="images/twitter.png" alt="twitter-icon">
+        <img src="images/dribble.png" alt="dribble-icon">
+        <img src="images/facebook.png" alt="facebook-icon">
+        <img src="images/g_plus.png" alt="g-plus-icon">
+        <img src="images/skype.png" alt="skype-icon">
+        <img src="images/stumble_upon.png" alt="stumble_upon-icon">
+        <img src="images/behance.png" alt="behance-icon">
+        <img src="images/pinterest.png" alt="pinterest-icon">
+        <img src="images/flickr.png" alt="flickr-icon">
     </div>
-    <!-- <div class="col-md-1"></div> -->
-    <div class="col-md-1">
-        <div class="card">
-            <img src="images/dribble.png" alt="">
-        </div>
+    <div class="footer-logo">
+        <h1>DELANI STUDIO</h1>
+        <p>2022</p>
     </div>
-    <!-- <div class="col-md-1"></div> -->
-    <div class="col-md-1">
-        <div class="card">
-            <img src="images/facebook.png" alt="">
-        </div> 
-    </div>
-    <!-- <div class="col-md-1"></div> -->
-    <div class="col-md-1">
-        <div class="card">
-            <img src="images/g_plus.png" alt="">
-        </div> 
-    </div>
-    <!-- <div class="col-md-1"></div> -->
-    <div class="col-md-1">
-        <div class="card">
-            <img src="images/skype.png" alt="">
-        </div>
-    </div>
-    <!-- <div class="col-md-1"></div> -->
-    <div class="col-md-1">
-        <div class="card">
-            <img src="images/stumble_upon.png" alt="">
-        </div>
-    </div>
-    <!-- <div class="col-md-1"></div> -->
-    <div class="col-md-1">
-        <div class="card">
-            <img src="images/behance.png" alt="">
-        </div>
-    </div>
-    <!-- <div class="col-md-1"></div> -->
-    <div class="col-md-1">
-        <div class="card">
-            <img src="images/pinterest.png" alt="">
-        </div> 
-    </div>
-    <!-- <div class="col-md-1"></div> -->
-    <div class="col-md-1">
-        <div class="card">
-            <img src="images/you_tube.png" alt="">
-        </div> 
-    </div>
-    <!-- <div class="col-md-1"></div> -->
-    <div class="col-md-1">
-        <div class="card">
-            <img src="images/flickr.png" alt="">
-        </div>
-    </div>
-
-  </div>
-  
-  
-  
-  
-
-      
+</footer>
+    
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
