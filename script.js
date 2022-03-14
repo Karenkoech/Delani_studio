@@ -15,7 +15,7 @@ $("#icon3,#para3").hover(function(){
 $("p,#imgWrap").hover(function(){
     $(this).css("border: white solid 4px", "white");
     }, function(){
-    $(this).css("color", "blue");
+    $("#imgWrap").css("color", "blue");
   });
 
 
