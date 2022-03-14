@@ -11,6 +11,14 @@ $("#icon3,#para3").hover(function(){
 })
 
 })
+// Creating hover effect over Image overlays
+$("p,#imgWrap").hover(function(){
+    $(this).css("border: white solid 4px", "white");
+    }, function(){
+    $(this).css("color", "blue");
+  });
+
+
 //  Contact us function
 $("button").click(function(){
         var message=document.getElementById("message").value
