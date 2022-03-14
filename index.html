@@ -20,7 +20,7 @@
               <img src="../images/mouse_click.png" alt="">
           </div>
       </div>
-    <div class="container_about">
+    <div class="container_about"> <br>
         <h1> ABOUT US</h1>
         <P> When you work with us, you are a part of a team of committed collaborators. All aspects of our software development process are integrated, interactive <br> and agile. <br> Our approach unifies design, development and product management to create
             exceptional products. <br>We start each project by understanding your business goals, the users need and the product requirements <br> Then we help translate them into effective and elegant solutions.
@@ -35,34 +35,31 @@
       <h1>WHAT WE DO</h1>
       <div class="icons">
           <div class="design">
-              <div class="design-icon" id="icon1">
-                <img src="images/design_icon.png" alt="" ">
-                  <p>DESIGN</p>
+              <div class="design-icon">
+                <img src="images/design_icon.png" alt="" id="icon1">
+                  <p><b>DESIGN</b></p> 
               </div>
               <div class="description" id="para1">
-
                   <p>Our design practice offers a full range of services including brand strategy, interaction and visual design and user experience testing.</p> <br>
                   <p>Throughout your project, our designers create and implement visual design and workflows, solicit user feedback and work with you to make sure what gets built is what is needed.</p>
               </div>
           </div>
           <div class="development">
-              <div class="dev-icon">
-                <img src="images/dev_icon.png" alt="">
-                  <p>DEVELOPMENT</p>
+              <div class="dev-icon" >
+                <img src="images/dev_icon.png" alt="" id="icon2">
+                  <p><b>DEVELOPMENT</b></p>
               </div>
-              <div class="description" id="para2">
-                  <h2>DEVELOPMENT</h2> 
+              <div class="description" id="para2"> 
                   <p>All engineers are fluent in the latest enterprise, mobile and web development technologies.</p> <br>
                   <p>They collaborate with your team to write, and improve code on a daily basis, using proven practices such as test-driven development and pair programming.</p>
               </div>
           </div>
           <div class="product">
-              <div class="product-icon">
-                <img src="images/product_icon.png" alt="">
-                  <p>PRODUCT MANAGEMENT</p>
+              <div class="product-icon" >
+                <img src="images/product_icon.png" alt="" id="icon3">
+                  <p><b>PRODUCT MANAGEMENT</b></p>
               </div>
               <div class="description" id="para3">
-                  <h2>PRODUCT MANAGEMENT</h2>
                   <p>Planning and development is iterative. Because we are constantly coding and testing, the product we build are always ready to go live.</p> <br>
                   <p>The iterative process allows for changes as business requirements evolve.</p>
               </div>
@@ -187,14 +184,15 @@
       <h1> CONTACT US</h1>
       <div class="details">
           <form action="">
-              <input type="text" id="name" placeholder ="Name" style="background-color: transparent;">
-              <input type="email" id="email" placeholder="Email" style="background-color: transparent;;">
+              <input type="text" id="name" placeholder="Name" style="background-color: transparent;">
+              <input type="text" id="email" placeholder="Email" style="background-color: transparent;">
           </form>
       </div> <br>
       <div class="message-form">
           <textarea name="" id="message" cols="45" rows="10" style="border:2px solid white; background-color: transparent; color: white;">Your message here ...</textarea>
-      </div>
-      <button type="submit" class="button" onclick="submit">Submit</button>
+          
+        </div>
+      <button type="submit" class="btn" onclick="textMessage()">Submit</button>
   </div>
   <footer class="container_footer">
     <div class="container_icons">
@@ -208,6 +206,7 @@
         <img src="images/pinterest.png" alt="pinterest-icon">
         <img src="images/flickr.png" alt="flickr-icon">
     </div>
+    
     <div class="footer-logo">
         <h1>DELANI STUDIO</h1>
         <p>2022</p>
