@@ -1,5 +1,5 @@
 .main_container{
-    background-image: url("../images/h_img.jpg");
+    background-image: url("./images/h_img.jpg");
     text-align: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -15,7 +15,7 @@
     line-height: 50px; 
 }
 .container_services {
-    background-image: url("../images/s_image.jpg");
+    background-image: url("./images/s_image.jpg");
     color: #ffff;
     background-repeat: no-repeat;
     background-size: cover;
@@ -114,7 +114,7 @@ transition: transform 0.25s;
 }
 .container_contact{
     text-align: center;
-    background-image: url("../images/c_image.jpg");
+    background-image: url("./images/c_image.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     padding-top: 50px;
